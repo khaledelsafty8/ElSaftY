@@ -1,0 +1,30 @@
+// Import Global Rules 
+@use "./globalrules/global-rules";
+
+// Import Colors
+@use "./varibules/varibules";
+
+// Import Mixins
+@use "./mixins/mixin" as *;
+
+
+// Import Pages
+@import "./pages/header/header";
+@import "./pages/landing/landing";
+@import "./pages/Articles/articles";
+@import "./pages/Gallery/gallery";
+@import "./pages/Features/features";
+@import "./pages/Testimonials/testimonials";
+@import "./pages/Team/team";
+@import "./pages/Services/services";
+@import "./pages/Skills/skills";
+@import "./pages/Work_Steps/work_steps";
+@import "./pages/Events/events";
+@import "./pages/Pricing/pricing";
+@import "./pages/Videos/videos";
+@import "./pages/Stats/stats";
+@import "./pages/Discount/discount";
+@import "./pages/Footer/footer";
+
+
+
